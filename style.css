@@ -1,0 +1,134 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+
+header .menu {
+  position: fixed;
+  top: -7px;
+  right: -1px;
+  background-color: #212529;
+  width: 1921px;
+  height: 75px;
+}
+header .menu h2 {
+  color: #fdd036;
+  font-size: 25px;
+  position: absolute;
+  top: 30px;
+  left: 311px;
+}
+header .menu nav {
+  position: absolute;
+  top: 30px;
+  left: 1137px;
+}
+header .menu nav a {
+  margin-right: 20px;
+  font-size: 20px;
+}
+header .menu nav a:hover {
+  color: #fdd036;
+}
+
+#welcome .box {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+  height: 782px;
+  width: 1929px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 29px;
+  right: 314px;
+  z-index: -1;
+}
+#welcome .box .textbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 303px 0 0;
+}
+#welcome .box .textbox h2 {
+  font-size: 40px;
+  color: #fbfbfb;
+}
+#welcome .box .textbox h1 {
+  font-size: 100px;
+  color: #fbfbfb;
+}
+#welcome .box .textbox .btn {
+  padding: 18px 53px;
+  font-size: 22px;
+  border-radius: 5px;
+  background-color: #ffc800;
+  font-weight: 700;
+  margin: 76px 0 0;
+}
+#welcome .box .textbox .btn a {
+  color: #fffffb;
+  cursor: pointer;
+}
+
+#SERVICES {
+  padding: 144px 0;
+}
+#SERVICES .wid {
+  width: 580px;
+}
+#SERVICES h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0 0 16px;
+}
+#SERVICES h3 {
+  font-size: 18px;
+  color: #8b9299;
+  font-weight: 400;
+  margin: 29px 0 57px;
+}
+#SERVICES .box .minibox {
+  background-color: #ffc800;
+  width: 138px;
+  border-radius: 341px;
+  height: 140px;
+  position: relative;
+  right: -135px;
+  z-index: -1;
+}
+#SERVICES .box .minibox .icon {
+  font-size: 70px;
+  position: relative;
+  top: 29px;
+  right: -27px;
+  color: white;
+}
+#SERVICES .box .minibox .iconone {
+  font-size: 70px;
+  position: relative;
+  top: 29px;
+  color: white;
+  right: -37px;
+}
+#SERVICES .box .textbox {
+  padding: 0px 50px;
+}
+#SERVICES .box .textbox h2 {
+  font-size: 25px;
+  margin: 20px 0 0;
+  font-weight: 700;
+}
+#SERVICES .box .textbox h3 {
+  font-size: 18px;
+  color: #8b9299;
+  font-weight: 400;
+  margin: 29px -16px 20px -26px;
+  line-height: 1.4;
+}/*# sourceMappingURL=style.css.map */
